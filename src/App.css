@@ -145,6 +145,7 @@ body {
 
 /* Toggle Switch */
 .theme-switcher {
+  position: absolute;
   left: 50%; /* Centered horizontally */
   bottom: 20px; /* 20px from the bottom */
   transform: translateX(-50%); /* Shifts it to the left by half its width */

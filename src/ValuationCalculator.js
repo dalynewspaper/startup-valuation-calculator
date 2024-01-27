@@ -40,7 +40,7 @@ function ValuationCalculator() {
     <div className="container mt-5">
       <div className="card">
         <div className="card-body">
-          <h2 className="card-title">Startup Valuation Calculator</h2>
+          <h2 className="card-title"> Calculate your next fundraising round</h2>
           <div className="mb-3">
             <div className="form-check form-check-inline">
               <input

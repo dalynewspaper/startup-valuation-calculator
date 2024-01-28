@@ -4,6 +4,7 @@ import ValuationCalculator from './ValuationCalculator';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import AngelInvestorCalculator from './AngelInvestorCalculator';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <p>This tool helps early-stage startups estimate their valuation based on various financial inputs.</p>
         <ValuationCalculator />
         <AngelInvestorCalculator />
+        <Analytics />
       </header>
     </div>
   );
